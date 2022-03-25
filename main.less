@@ -3,6 +3,63 @@ body{
     max-width: 100%;
     text-align: center;
 
+    button:hover {
+        cursor:pointer;
+    }
+    .container1 {
+        background-color:#000000;
+        // position: fixed;
+
+        .header {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding:35px 0px;
+            
+            .logo {
+                padding-right: 0;
+            }
+
+            button {
+                border: none;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 20px;
+                align-items: center;
+                text-align: center;
+                text-transform: capitalize;
+                background-color: #000000;
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .buttons {
+                gap: 48px;
+
+                .features {
+                    padding: 0 5.169px;
+                }
+        
+                .about {
+                    padding: 0 0.250px;
+                }
+        
+                .pricing {
+                    padding: 0 0.781px;
+                }
+        
+                .reviews {
+                    padding: 0 0.481px;
+                }
+        
+                .contact {
+                    padding: 0 0.750px;
+                }
+            }
+        }
+    }
+
     .text_h2 {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -35,26 +92,29 @@ body{
         max-width: 100%;
         text-align: center;
     }
-
-    .light_bulb {
-        margin-right: 352px;
-        border: 1px solid #E72424;
-        border-radius: 50px;
-        padding: 20px 24px;
-    }
-
-    .keyboard {
-        margin-right: 352px;
+    
+    .section {
         margin-top: 89px;
-        border: 1px solid #E72424;
-        border-radius: 100px;
-        padding: 22px 17px;
-    }
 
-    .light {
-        border: 1px solid #E72424;
-        border-radius: 100px;
-        padding: 19px 25px;
+        .light_bulb {
+            margin-right: 352px;
+            border: 1px solid #E72424;
+            border-radius: 50px;
+            padding: 20px 24px;
+        }
+    
+        .keyboard {
+            margin-right: 352px;
+            border: 1px solid #E72424;
+            border-radius: 100px;
+            padding: 22px 17px;
+        }
+    
+        .light {
+            border: 1px solid #E72424;
+            border-radius: 100px;
+            padding: 19px 25px;
+        }
     }
 
     .section_text2 {
@@ -90,6 +150,4 @@ body{
             width: 350px;
         }
     }
-
-
 }

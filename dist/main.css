@@ -2,6 +2,52 @@ body {
   max-width: 100%;
   text-align: center;
 }
+body button:hover {
+  cursor: pointer;
+}
+body .container1 {
+  background-color: #000000;
+}
+body .container1 .header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0px;
+}
+body .container1 .header .logo {
+  padding-right: 0;
+}
+body .container1 .header button {
+  border: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.7);
+}
+body .container1 .header .buttons {
+  gap: 48px;
+}
+body .container1 .header .buttons .features {
+  padding: 0 5.169px;
+}
+body .container1 .header .buttons .about {
+  padding: 0 0.25px;
+}
+body .container1 .header .buttons .pricing {
+  padding: 0 0.781px;
+}
+body .container1 .header .buttons .reviews {
+  padding: 0 0.481px;
+}
+body .container1 .header .buttons .contact {
+  padding: 0 0.75px;
+}
 body .text_h2 {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -31,20 +77,22 @@ body .text_only {
   max-width: 100%;
   text-align: center;
 }
-body .light_bulb {
+body .section {
+  margin-top: 89px;
+}
+body .section .light_bulb {
   margin-right: 352px;
   border: 1px solid #E72424;
   border-radius: 50px;
   padding: 20px 24px;
 }
-body .keyboard {
+body .section .keyboard {
   margin-right: 352px;
-  margin-top: 89px;
   border: 1px solid #E72424;
   border-radius: 100px;
   padding: 22px 17px;
 }
-body .light {
+body .section .light {
   border: 1px solid #E72424;
   border-radius: 100px;
   padding: 19px 25px;
