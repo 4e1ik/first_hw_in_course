@@ -1,6 +1,7 @@
 body {
   max-width: 100%;
   text-align: center;
+  right: 50%;
 }
 body button:hover {
   cursor: pointer;
@@ -11,13 +12,12 @@ body .container1 {
   position: fixed;
 }
 body .container1 .header {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
   padding: 35px 0px;
 }
 body .container1 .header .logo {
-  padding-right: 625px;
   width: 68px;
 }
 body .container1 .header button {
@@ -34,17 +34,10 @@ body .container1 .header button {
   color: rgba(255, 255, 255, 0.7);
   padding: 0px;
 }
-body .container1 .header .buttons .features {
-  margin-right: 48px;
-}
-body .container1 .header .buttons .about {
-  margin-right: 48px;
-}
-body .container1 .header .buttons .pricing {
-  margin-right: 48px;
-}
-body .container1 .header .buttons .reviews {
-  margin-right: 48px;
+body .container1 .header .buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 489px;
 }
 body .text_h2 {
   font-family: 'Raleway', sans-serif;
@@ -77,15 +70,14 @@ body .text_only {
 }
 body .section {
   margin-top: 89px;
+  justify-content: space-evenly;
 }
 body .section .light_bulb {
-  margin-right: 352px;
   border: 1px solid #E72424;
   border-radius: 50px;
   padding: 20px 24px;
 }
 body .section .keyboard {
-  margin-right: 352px;
   border: 1px solid #E72424;
   border-radius: 100px;
   padding: 22px 17px;
@@ -95,32 +87,28 @@ body .section .light {
   border-radius: 100px;
   padding: 19px 25px;
 }
-body .section_text2 {
-  display: inline-flex;
+body .section .section_text2 {
+  display: flex;
+  justify-content: space-evenly;
 }
-body .section_text2 .text2 {
-  margin: 0px 82px 0px 82px;
-}
-body .section_text2 h3 {
+body .section .section_text2 h3 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-  text-align: center;
   color: #333333;
   padding-top: 30px;
-  padding-bottom: 16px;
-  margin: 0;
+  text-align: center;
 }
-body .section_text2 p {
+body .section .section_text2 p {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  text-align: center;
   color: #000000;
   margin: 0px;
+  padding-top: 16px;
   width: 350px;
 }
