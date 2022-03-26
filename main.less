@@ -1,8 +1,9 @@
 body{
 
-    max-width: 100%;
+    // max-width: 100%;
     text-align: center;
-    right: 50%; 
+    // margin: auto;
+    // width: 1400px;
 
 
     button:hover {
@@ -14,12 +15,13 @@ body{
         width: 100%;
         position: fixed;
 
-
         .header {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: stretch;
             padding:35px 0px;
+            margin: auto;
+            width: 1400px;
             
             .logo {
                 width: 68px;
@@ -48,88 +50,101 @@ body{
         }
     }
 
-    .text_h2 {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 42px;
-        color: #212121;
-        line-height: 42px;
-        padding-top: 100px;
-        padding-bottom:25px;
+    .container3 {
         max-width: 100%;
-        text-align: center;
-    }
-    
-    .line {
-        padding-top: 1px;
-        width: 64px;
-        background-color: #E72424;
         margin: auto;
-    }
-    
-    .text_only {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px;
-        padding-top: 30px;
-        color:#86878B;
-        max-width: 100%;
-        text-align: center;
-    }
-    
-    .section {
-        margin-top: 89px;
-        justify-content: space-evenly;
+        width: 1400px;
 
-        .light_bulb {
-            border: 1px solid #E72424;
-            border-radius: 50px;
-            padding: 20px 24px;
-        }
-    
-        .keyboard {
-            border: 1px solid #E72424;
-            border-radius: 100px;
-            padding: 22px 17px;
-        }
-    
-        .light {
-            border: 1px solid #E72424;
-            border-radius: 100px;
-            padding: 19px 25px;
-        }
-
-        .section_text2 {
-
+        .text_h2 {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 42px;
+            color: #212121;
+            line-height: 42px;
+            padding-top: 100px;
+            padding-bottom:25px;
+            max-width: 100%;
+            text-align: center;
             display: flex;
-            justify-content: space-evenly;   
+            justify-content: center;
+        }
+        
+        .line {
+            padding-top: 1px;
+            width: 64px;
+            background-color: #E72424;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .text_only {
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            padding-top: 30px;
+            color:#86878B;
+            max-width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .section {
+            margin-top: 89px;
+            justify-content: space-evenly;
     
-            h3 {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 27px;
-                color: #333333;
-                padding-top: 30px;
-                text-align: center;
+            .light_bulb {
+                border: 1px solid #E72424;
+                border-radius: 50px;
+                padding: 20px 24px;
             }
         
-            p {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 19px;
-                color: #000000;
-                margin: 0px;
-                padding-top: 16px;
-                width: 350px;
+            .keyboard {
+                border: 1px solid #E72424;
+                border-radius: 100px;
+                padding: 22px 17px;
+            }
+        
+            .light {
+                border: 1px solid #E72424;
+                border-radius: 100px;
+                padding: 19px 25px;
+            }
     
+            .section_text2 {
+    
+                display: flex;
+                justify-content: space-between;
+                left:50%;
+        
+                h3 {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #333333;
+                    padding-top: 30px;
+                    text-align: center;
+                }
+            
+                p {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #000000;
+                    margin: 0px;
+                    padding-top: 16px;
+                    width: 350px;
+        
+                }
             }
         }
     }
